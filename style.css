@@ -1,0 +1,58 @@
+html,body {
+    font-size:18px;
+}
+
+.container {
+    max-width: 1185px;
+    margin: 30px auto;
+    background: #f1f1f1;
+    padding: 30px;
+}
+
+button{ 
+ background: none;
+ border: 1px solid black;
+ border-radius: 4px;
+ padding: 10px 20px;
+}
+
+button:hover {
+    background: chartreuse;
+}
+
+button:active {
+    background: #000;
+    color:crimson;
+}
+
+/* .slider {
+    width: 395px;
+    height: 296px;
+    border: 2px solid black;
+    overflow: hidden;
+} */
+/* 
+.slider-line {
+    height: 296px;
+    width: 1185px;
+    background: chartreuse;
+    display: flex;
+    position: relative;
+    left:0;
+    transition: all ease 1s;
+} */
+
+
+.slider {
+    border: 2px solid #000;
+    max-width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+
+}
+
+.slider-linee {
+    display: flex;
+    background: orangered;
+    transition: all ease 1s;
+}
